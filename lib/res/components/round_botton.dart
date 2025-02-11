@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:mvvm/res/color.dart';
 
-class RoundBotton extends StatelessWidget {
+class RoundButton extends StatelessWidget {
   final String title;
   final bool loading;
   final VoidCallback onPress;
 
-  const RoundBotton(
+  const RoundButton(
       {super.key,
       required this.title,
       required this.loading,

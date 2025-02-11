@@ -10,6 +10,8 @@ class HomeRepository {
     try {
       dynamic response =
           await _apiServices.getGetApiResponse(AppUrl.moviesListEndPoint);
+
+      print('shfgdjshgjdfghdfj.....' + response.toString());
       return response = MovieListModel.fromJson(response);
     } catch (e) {
       throw e;
